@@ -1,0 +1,13 @@
+create two more server.properties files(server-1 and server-2) in ..\kafka_2.12-2.2.1\config folder with following changes
+
+add two lines
+
+listeners=PLAINTEXT://localhost:9093
+auto.create.topics.enable=false
+
+and modify two lines as per below
+
+broker.id=1
+
+log.dirs=/tmp/kafka-logs-1
+
